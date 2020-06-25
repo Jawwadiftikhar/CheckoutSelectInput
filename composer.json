@@ -1,0 +1,28 @@
+{
+    "name": "jawwad/checkoutselectinput",
+    "description": "Magento 2 Change Input Text to Select",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0"
+    ],
+    "keywords" : [
+        "checkout",
+        "select input",
+        "text to select",
+        "magento2"
+    ],
+    "authors" : [{
+        "name" : "Jawwad Iftikhar",
+        "email" : "jawwadiftikhar@yahoo.com"
+    }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Jawwad\\CheckoutSelectInput\\": ""
+        }
+    }
+}
